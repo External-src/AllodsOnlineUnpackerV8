@@ -1,0 +1,622 @@
+﻿  AllodsV8.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ParticleAnimation.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Collision.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CollisionMesh.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  PhysicMaterial.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeathHandler.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceRotationPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShipDeviceManager.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShipSteeringParams.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SphereCollisionHandler.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AstralHubObjectPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SoundObjectData.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  WeatherType.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  WeatherVisObjComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ZoneLights.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  MaterialTemplate.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Texture.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TextureSingleElement.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AstralSpellChanneling.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AstralSpellProjectile.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  BuffVisScripts.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CameraParametersAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureAnimationAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureAnimationFromCasterAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureAnimationSetModeAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureAnimationSetSpeedAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureAnimationStopAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureAstralSpellFXVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureAttachSelfAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureAttackTargetVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureCancelMountHidingVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureChangeAppearanceAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureChangeVisItemsAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureChannelDirectAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureChargedSpellAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureColorAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureDisableSpecialIdlesAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureEffectsAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureEffectsOnTarget.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureEnchantWeaponAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  CreatureEventPlaybackEnded.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureFixedPointProjectileAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureFixedTimeProjectileAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureHeavyProjectileAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureHideMountVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureHoldWeaponAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureIfFlagVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureIfMainAvatarRunAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureItemAnimationAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureItemAttachBoneAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureMountVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureMusicParamAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureOnCreationVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureOnParameterChangedAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureParalyzeAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreaturePetVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureProjectileAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureReplaceAnimationAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureReplaceAnimationsAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureRunActionOnSpellTargets.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  CreatureRunVisActionResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSayAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureScaleAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSetAnimationPropertiesAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSetFlagVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSetTransparencyAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureShowHaloAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSwitchDistToTargetAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureTakeArrowAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureTakeBowStringAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureThrowArrowAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureTimeIntervalChannelPosAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureTimeIntervalChannelSpeedAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureTimeIntervalEndAnimationAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureTrailAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureTurnToMainAvatarAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureTurnToTargetAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureUseIntervalsVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureVisActionCreateController.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureVisActionIgnoreDisarm.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  CreatureVisActionOnSelectableTargets.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureVisActionPlayOnUsedDevice.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureVisActionStartThrow.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureWaitReadyAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureWaitThrowDurationAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DayTimeParameter.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceActiveActionComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceAnimationAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceCannonLaunchedAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceChannelAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceColorAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceFixedPointProjectileAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceHealthComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceIfFlagVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceOfflineComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceVisActionAutoStop.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceVisActionChangeModel.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceVisActionDelay.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceVisActionList.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceVisActionLoopAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  DeviceVisEffectsAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DeviceVisibilityComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  EffectOffendConstDelay.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  EffectOffendConstVelocity.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  EntityVisActionIfVisObject.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ForagingVisualizerComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  GuildLevelParameter.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  HaloRankParameter.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  HealthParameter.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  LevelParameter.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  LooterEmoteAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  NavigatorZoomPartResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  PostEffectVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ProceduralEffectVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  RankInGuildParameter.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShakeAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShiftAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShipEngineComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShowSceneAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SlotInterfaceData.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  Sound2DAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Sound2DMatchAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Sound3DAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Sound3DActionDevice.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ThreatParameter.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  UsableDeviceClientPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisActionChangeVisObject.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisActionDelay.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisActionList.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisActionLoopAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisActionRandom.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisActionRefCounter.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisActionStopAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisItemEffectsRanged.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisPointFromEventClientDataPlus.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisPointLocator.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AnimatedLight.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AnimationController.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AstralMaterialParams.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CommonMaterialParams.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  PointLitMaterialParams.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SkeletalAnimation.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SkyMaterialParams.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AttachedVisObjectComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ChainAnimatorComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ClolorFromPrimeSecondary.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ColorMaskComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DelayComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  LightComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  RandomComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  StopVisObjectComponents.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TimeTransparencyComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisObjComponentsFile.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisObjectTemplate.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AlignCollisionComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AstralMobHitLocator.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AttachCameraSlotComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CameraPathComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CameraShakerComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CameraTrackAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  ChannelingComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureDisableEmotesAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureDisableHitsAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureEnlargeFovAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureFatalityAbilityAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureForceMoveAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureGridViewAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureIndependentFxAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureLockTargetAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureRunOnAllAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSceneDesaturationAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSetFlagAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSetPortraitAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSetSwimHeightAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureSheathAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureStepSoundParamAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CreatureVisObjectComponentsAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CustomIdleComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DamageDecalManager.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DisableNavigationTeleportAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  EffectsList.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  GuildColorsMaskComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  HideGeoPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  HighlightCreatureVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  HitLocators.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  InteractionAnimationPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  MimicSlotPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  PirateSailsPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  PositionSynchronizer.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  PredicateCreatureFlagAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ProjectileHolderPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  RotationAnimationPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ScanerDevicePart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ServerTimeComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShipBuildStatus.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShipBuildStatusResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShipHealthComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShipProximityChecker.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SingleHitSlot.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SlonRoot.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  SlotLink.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TeleportEffect.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TLScriptsPart.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TLVisualComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisEntityVisualizer.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  WeatherCreatureVisAction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  FoliageGeometry.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AnimationFromParentComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AnimationProperties.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AreaEffect.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AstralComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  AstralObject.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CameraShakeParameters.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CharacterSoundVariation.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CharacterVariations.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  DayTimeComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  IndexedTexture.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  LightMutatorComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  MobAnimations.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ModelMorphSettings.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  PostEffectParams.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SkyMesh.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SkyObject.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SpellVisScripts.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  StateComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SunShaftsComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TexturePatch.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TrailComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TrailTemplate.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  TransportVisualItem.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  UserPostEffect.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICAttachedComponentByCharFiltered.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICCancelDefaultDressSlotSettings.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICDynamic.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICHideAttachedObj.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICHideGeosets.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICHideUnderwear.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICOverride.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICPack.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICReplaceTexture.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  VICSelectByChar.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICSelectComponentByChar.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICSelectComponentByGuildLevel.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICSelectComponentByRankInGuild.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICStatic.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICUsePack.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICVisObjectByCharComponent.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VICVisObjectComponents.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisCharacterTraceProperties.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisEffectBaseList.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisualItemGrades.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisualMobTroopExtension.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisualMountClass.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  UISingleTexture.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  UITexture.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Containers.cpp
+  Unpacker.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Animation.cpp
+  Items.cpp
+  FMODProject.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  Geometry.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Replica.cpp
+  Ships.cpp
+  SLON.cpp
+  Spells.cpp
+  BuffResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ItemResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisualItem.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  MountGroupResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  MountResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  MountSkin.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  SkinListResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Spell.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  UnlockResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  OverLevelPenaltyCalcer.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Character.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CharacterRoot.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Faction.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ProjectileResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ShipResource.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
+  Компиляция...
+  ShipSkin.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisualShip.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Functions.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  StaticObject.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  mhook.cpp
+d:\tools\sources\allods\allodsv8\mhook\mhook-lib\mhook.cpp(162): error C2664: "HMODULE GetModuleHandleW(LPCWSTR)": невозможно преобразовать аргумент 1 из "const char [9]" в "LPCWSTR"
+  d:\tools\sources\allods\allodsv8\mhook\mhook-lib\mhook.cpp(162): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+d:\tools\sources\allods\allodsv8\mhook\mhook-lib\mhook.cpp(163): error C2664: "HMODULE GetModuleHandleW(LPCWSTR)": невозможно преобразовать аргумент 1 из "const char [9]" в "LPCWSTR"
+  d:\tools\sources\allods\allodsv8\mhook\mhook-lib\mhook.cpp(163): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+d:\tools\sources\allods\allodsv8\mhook\mhook-lib\mhook.cpp(164): error C2664: "HMODULE GetModuleHandleW(LPCWSTR)": невозможно преобразовать аргумент 1 из "const char [9]" в "LPCWSTR"
+  d:\tools\sources\allods\allodsv8\mhook\mhook-lib\mhook.cpp(164): note: Типы, на которые указывают указатели, не связаны; для преобразования требуется reinterpret_cast, приведение в стиле С или приведение в стиле функции
+  Exceptions.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  CheckingXDB.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Module.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  BreakPoints.cpp
+d:\tools\sources\allods\allodsv8\tools\breakpoints.cpp(19): warning C4018: <: несоответствие типов со знаком и без знака
+d:\tools\sources\allods\allodsv8\tools\breakpoints.cpp(72): warning C4018: <: несоответствие типов со знаком и без знака
+  AwBreakPoint.cpp
+  Patcher.cpp
+d:\tools\sources\allods\allodsv8\tools\memory\patcher.cpp(39): warning C4018: <: несоответствие типов со знаком и без знака
+d:\tools\sources\allods\allodsv8\tools\memory\patcher.cpp(56): warning C4018: <: несоответствие типов со знаком и без знака
+  VisualMob.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Redirector.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Unpacking.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisualMount.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  VisCharacterTemplate.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  ZoneInfo.cpp
+d:\tools\sources\allods\allodsv8\header.h(32): fatal error C1083: Не удается открыть файл включение: ../../AllodsNew/tinyxml2/tinyxml2.h: No such file or directory,
+  Создание кода...
