@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AllodsV8.cpp" />
+    <ClCompile Include="client\Animation\ParticleAnimation.cpp" />
+    <ClCompile Include="client\Collision\Collision.cpp" />
+    <ClCompile Include="client\Collision\CollisionMesh.cpp" />
+    <ClCompile Include="client\Collision\PhysicMaterial.cpp" />
+    <ClCompile Include="client\GameMechanics\DeathHandler.cpp" />
+    <ClCompile Include="client\GameMechanics\DeviceRotationPart.cpp" />
+    <ClCompile Include="client\GameMechanics\ShipDeviceManager.cpp" />
+    <ClCompile Include="client\GameMechanics\ShipSteeringParams.cpp" />
+    <ClCompile Include="client\GameMechanics\SphereCollisionHandler.cpp" />
+    <ClCompile Include="client\GMUIHelper\AstralHubObjectPart.cpp" />
+    <ClCompile Include="client\Map\SoundObjectData.cpp" />
+    <ClCompile Include="client\Map\WeatherType.cpp" />
+    <ClCompile Include="client\Map\WeatherVisObjComponent.cpp" />
+    <ClCompile Include="client\Map\ZoneLights.cpp" />
+    <ClCompile Include="client\RenderCommon\MaterialTemplate.cpp" />
+    <ClCompile Include="client\RenderCommon\Texture.cpp" />
+    <ClCompile Include="client\RenderCommon\TextureSingleElement.cpp" />
+    <ClCompile Include="client\Replica\AstralSpellChanneling.cpp" />
+    <ClCompile Include="client\Replica\AstralSpellProjectile.cpp" />
+    <ClCompile Include="client\Replica\BuffVisScripts.cpp" />
+    <ClCompile Include="client\Replica\CameraParametersAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureAnimationAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureAnimationFromCasterAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureAnimationSetModeAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureAnimationSetSpeedAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureAnimationStopAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureAstralSpellFXVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureAttachSelfAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureAttackTargetVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureCancelMountHidingVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureChangeAppearanceAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureChangeVisItemsAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureChannelDirectAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureChargedSpellAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureColorAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureDisableSpecialIdlesAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureEffectsAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureEffectsOnTarget.cpp" />
+    <ClCompile Include="client\Replica\CreatureEnchantWeaponAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureEventPlaybackEnded.cpp" />
+    <ClCompile Include="client\Replica\CreatureFixedPointProjectileAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureFixedTimeProjectileAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureHeavyProjectileAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureHideMountVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureHoldWeaponAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureIfFlagVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureIfMainAvatarRunAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureItemAnimationAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureItemAttachBoneAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureMountVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureMusicParamAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureOnCreationVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureOnParameterChangedAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureParalyzeAction.cpp" />
+    <ClCompile Include="client\Replica\CreaturePetVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureProjectileAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureReplaceAnimationAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureReplaceAnimationsAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureRunActionOnSpellTargets.cpp" />
+    <ClCompile Include="client\Replica\CreatureRunVisActionResource.cpp" />
+    <ClCompile Include="client\Replica\CreatureSayAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureScaleAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureSetAnimationPropertiesAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureSetFlagVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureSetTransparencyAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureShowHaloAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureSwitchDistToTargetAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureTakeArrowAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureTakeBowStringAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureThrowArrowAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureTimeIntervalChannelPosAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureTimeIntervalChannelSpeedAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureTimeIntervalEndAnimationAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureTrailAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureTurnToMainAvatarAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureTurnToTargetAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureUseIntervalsVisAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureVisActionCreateController.cpp" />
+    <ClCompile Include="client\Replica\CreatureVisActionIgnoreDisarm.cpp" />
+    <ClCompile Include="client\Replica\CreatureVisActionOnSelectableTargets.cpp" />
+    <ClCompile Include="client\Replica\CreatureVisActionPlayOnUsedDevice.cpp" />
+    <ClCompile Include="client\Replica\CreatureVisActionStartThrow.cpp" />
+    <ClCompile Include="client\Replica\CreatureWaitReadyAction.cpp" />
+    <ClCompile Include="client\Replica\CreatureWaitThrowDurationAction.cpp" />
+    <ClCompile Include="client\Replica\DayTimeParameter.cpp" />
+    <ClCompile Include="client\Replica\DeviceActiveActionComponent.cpp" />
+    <ClCompile Include="client\Replica\DeviceAnimationAction.cpp" />
+    <ClCompile Include="client\Replica\DeviceCannonLaunchedAction.cpp" />
+    <ClCompile Include="client\Replica\DeviceChannelAction.cpp" />
+    <ClCompile Include="client\Replica\DeviceColorAction.cpp" />
+    <ClCompile Include="client\Replica\DeviceFixedPointProjectileAction.cpp" />
+    <ClCompile Include="client\Replica\DeviceHealthComponent.cpp" />
+    <ClCompile Include="client\Replica\DeviceIfFlagVisAction.cpp" />
+    <ClCompile Include="client\Replica\DeviceOfflineComponent.cpp" />
+    <ClCompile Include="client\Replica\DeviceVisActionAutoStop.cpp" />
+    <ClCompile Include="client\Replica\DeviceVisActionChangeModel.cpp" />
+    <ClCompile Include="client\Replica\DeviceVisActionDelay.cpp" />
+    <ClCompile Include="client\Replica\DeviceVisActionList.cpp" />
+    <ClCompile Include="client\Replica\DeviceVisActionLoopAction.cpp" />
+    <ClCompile Include="client\Replica\DeviceVisEffectsAction.cpp" />
+    <ClCompile Include="client\Replica\DeviceVisibilityComponent.cpp" />
+    <ClCompile Include="client\Replica\EffectOffendConstDelay.cpp" />
+    <ClCompile Include="client\Replica\EffectOffendConstVelocity.cpp" />
+    <ClCompile Include="client\Replica\EntityVisActionIfVisObject.cpp" />
+    <ClCompile Include="client\Replica\ForagingVisualizerComponent.cpp" />
+    <ClCompile Include="client\Replica\GuildLevelParameter.cpp" />
+    <ClCompile Include="client\Replica\HaloRankParameter.cpp" />
+    <ClCompile Include="client\Replica\HealthParameter.cpp" />
+    <ClCompile Include="client\Replica\LevelParameter.cpp" />
+    <ClCompile Include="client\Replica\LooterEmoteAction.cpp" />
+    <ClCompile Include="client\Replica\NavigatorZoomPartResource.cpp" />
+    <ClCompile Include="client\Replica\PostEffectVisAction.cpp" />
+    <ClCompile Include="client\Replica\ProceduralEffectVisAction.cpp" />
+    <ClCompile Include="client\Replica\RankInGuildParameter.cpp" />
+    <ClCompile Include="client\Replica\ShakeAction.cpp" />
+    <ClCompile Include="client\Replica\ShiftAction.cpp" />
+    <ClCompile Include="client\Replica\ShipEngineComponent.cpp" />
+    <ClCompile Include="client\Replica\ShowSceneAction.cpp" />
+    <ClCompile Include="client\Replica\SlotInterfaceData.cpp" />
+    <ClCompile Include="client\Replica\Sound2DAction.cpp" />
+    <ClCompile Include="client\Replica\Sound2DMatchAction.cpp" />
+    <ClCompile Include="client\Replica\Sound3DAction.cpp" />
+    <ClCompile Include="client\Replica\Sound3DActionDevice.cpp" />
+    <ClCompile Include="client\Replica\ThreatParameter.cpp" />
+    <ClCompile Include="client\Replica\UsableDeviceClientPart.cpp" />
+    <ClCompile Include="client\Replica\VisActionChangeVisObject.cpp" />
+    <ClCompile Include="client\Replica\VisActionDelay.cpp" />
+    <ClCompile Include="client\Replica\VisActionList.cpp" />
+    <ClCompile Include="client\Replica\VisActionLoopAction.cpp" />
+    <ClCompile Include="client\Replica\VisActionRandom.cpp" />
+    <ClCompile Include="client\Replica\VisActionRefCounter.cpp" />
+    <ClCompile Include="client\Replica\VisActionStopAction.cpp" />
+    <ClCompile Include="client\Replica\VisItemEffectsRanged.cpp" />
+    <ClCompile Include="client\Replica\VisPointFromEventClientDataPlus.cpp" />
+    <ClCompile Include="client\Replica\VisPointLocator.cpp" />
+    <ClCompile Include="client\Scene3D\AnimatedLight.cpp" />
+    <ClCompile Include="client\Scene3D\AnimationController.cpp" />
+    <ClCompile Include="client\Scene3D\AstralMaterialParams.cpp" />
+    <ClCompile Include="client\Scene3D\CommonMaterialParams.cpp" />
+    <ClCompile Include="client\Scene3D\PointLitMaterialParams.cpp" />
+    <ClCompile Include="client\Scene3D\SkeletalAnimation.cpp" />
+    <ClCompile Include="client\Scene3D\SkyMaterialParams.cpp" />
+    <ClCompile Include="client\Scene\AttachedVisObjectComponent.cpp" />
+    <ClCompile Include="client\Scene\ChainAnimatorComponent.cpp" />
+    <ClCompile Include="client\Scene\ClolorFromPrimeSecondary.cpp" />
+    <ClCompile Include="client\Scene\ColorMaskComponent.cpp" />
+    <ClCompile Include="client\Scene\DelayComponent.cpp" />
+    <ClCompile Include="client\Scene\LightComponent.cpp" />
+    <ClCompile Include="client\Scene\RandomComponent.cpp" />
+    <ClCompile Include="client\Scene\StopVisObjectComponents.cpp" />
+    <ClCompile Include="client\Scene\TimeTransparencyComponent.cpp" />
+    <ClCompile Include="client\Scene\VisObjComponentsFile.cpp" />
+    <ClCompile Include="client\Scene\VisObjectTemplate.cpp" />
+    <ClCompile Include="client\SLON\AlignCollisionComponent.cpp" />
+    <ClCompile Include="client\SLON\AstralMobHitLocator.cpp" />
+    <ClCompile Include="client\SLON\AttachCameraSlotComponent.cpp" />
+    <ClCompile Include="client\SLON\CameraPathComponent.cpp" />
+    <ClCompile Include="client\SLON\CameraShakerComponent.cpp" />
+    <ClCompile Include="client\SLON\CameraTrackAction.cpp" />
+    <ClCompile Include="client\SLON\ChannelingComponent.cpp" />
+    <ClCompile Include="client\SLON\CreatureDisableEmotesAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureDisableHitsAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureEnlargeFovAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureFatalityAbilityAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureForceMoveAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureGridViewAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureIndependentFxAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureLockTargetAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureRunOnAllAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureSceneDesaturationAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureSetFlagAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureSetPortraitAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureSetSwimHeightAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureSheathAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureStepSoundParamAction.cpp" />
+    <ClCompile Include="client\SLON\CreatureVisObjectComponentsAction.cpp" />
+    <ClCompile Include="client\SLON\CustomIdleComponent.cpp" />
+    <ClCompile Include="client\SLON\DamageDecalManager.cpp" />
+    <ClCompile Include="client\SLON\DisableNavigationTeleportAction.cpp" />
+    <ClCompile Include="client\SLON\EffectsList.cpp" />
+    <ClCompile Include="client\SLON\GuildColorsMaskComponent.cpp" />
+    <ClCompile Include="client\SLON\HideGeoPart.cpp" />
+    <ClCompile Include="client\SLON\HighlightCreatureVisAction.cpp" />
+    <ClCompile Include="client\SLON\HitLocators.cpp" />
+    <ClCompile Include="client\SLON\InteractionAnimationPart.cpp" />
+    <ClCompile Include="client\SLON\MimicSlotPart.cpp" />
+    <ClCompile Include="client\SLON\PirateSailsPart.cpp" />
+    <ClCompile Include="client\SLON\PositionSynchronizer.cpp" />
+    <ClCompile Include="client\SLON\PredicateCreatureFlagAction.cpp" />
+    <ClCompile Include="client\SLON\ProjectileHolderPart.cpp" />
+    <ClCompile Include="client\SLON\RotationAnimationPart.cpp" />
+    <ClCompile Include="client\SLON\ScanerDevicePart.cpp" />
+    <ClCompile Include="client\SLON\ServerTimeComponent.cpp" />
+    <ClCompile Include="client\SLON\ShipBuildStatus.cpp" />
+    <ClCompile Include="client\SLON\ShipBuildStatusResource.cpp" />
+    <ClCompile Include="client\SLON\ShipHealthComponent.cpp" />
+    <ClCompile Include="client\SLON\ShipProximityChecker.cpp" />
+    <ClCompile Include="client\SLON\SingleHitSlot.cpp" />
+    <ClCompile Include="client\SLON\SlonRoot.cpp" />
+    <ClCompile Include="client\SLON\SlotLink.cpp" />
+    <ClCompile Include="client\SLON\TeleportEffect.cpp" />
+    <ClCompile Include="client\SLON\TLScriptsPart.cpp" />
+    <ClCompile Include="client\SLON\TLVisualComponent.cpp" />
+    <ClCompile Include="client\SLON\VisEntityVisualizer.cpp" />
+    <ClCompile Include="client\SLON\WeatherCreatureVisAction.cpp" />
+    <ClCompile Include="client\Terrain\FoliageGeometry.cpp" />
+    <ClCompile Include="client\VisualConstructor\AnimationFromParentComponent.cpp" />
+    <ClCompile Include="client\VisualConstructor\AnimationProperties.cpp" />
+    <ClCompile Include="client\VisualConstructor\AreaEffect.cpp" />
+    <ClCompile Include="client\VisualConstructor\AstralComponent.cpp" />
+    <ClCompile Include="client\VisualConstructor\AstralObject.cpp" />
+    <ClCompile Include="client\VisualConstructor\CameraShakeParameters.cpp" />
+    <ClCompile Include="client\VisualConstructor\CharacterSoundVariation.cpp" />
+    <ClCompile Include="client\VisualConstructor\CharacterVariations.cpp" />
+    <ClCompile Include="client\VisualConstructor\DayTimeComponent.cpp" />
+    <ClCompile Include="client\VisualConstructor\IndexedTexture.cpp" />
+    <ClCompile Include="client\VisualConstructor\LightMutatorComponent.cpp" />
+    <ClCompile Include="client\VisualConstructor\MobAnimations.cpp" />
+    <ClCompile Include="client\VisualConstructor\ModelMorphSettings.cpp" />
+    <ClCompile Include="client\VisualConstructor\PostEffectParams.cpp" />
+    <ClCompile Include="client\VisualConstructor\SkyMesh.cpp" />
+    <ClCompile Include="client\VisualConstructor\SkyObject.cpp" />
+    <ClCompile Include="client\VisualConstructor\SpellVisScripts.cpp" />
+    <ClCompile Include="client\VisualConstructor\StateComponent.cpp" />
+    <ClCompile Include="client\VisualConstructor\SunShaftsComponent.cpp" />
+    <ClCompile Include="client\VisualConstructor\TexturePatch.cpp" />
+    <ClCompile Include="client\VisualConstructor\TrailComponent.cpp" />
+    <ClCompile Include="client\VisualConstructor\TrailTemplate.cpp" />
+    <ClCompile Include="client\VisualConstructor\TransportVisualItem.cpp" />
+    <ClCompile Include="client\VisualConstructor\UserPostEffect.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICAttachedComponentByCharFiltered.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICCancelDefaultDressSlotSettings.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICDynamic.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICHideAttachedObj.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICHideGeosets.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICHideUnderwear.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICOverride.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICPack.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICReplaceTexture.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICSelectByChar.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICSelectComponentByChar.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICSelectComponentByGuildLevel.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICSelectComponentByRankInGuild.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICStatic.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICUsePack.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICVisObjectByCharComponent.cpp" />
+    <ClCompile Include="client\VisualConstructor\VICVisObjectComponents.cpp" />
+    <ClCompile Include="client\VisualConstructor\VisCharacterTraceProperties.cpp" />
+    <ClCompile Include="client\VisualConstructor\VisEffectBaseList.cpp" />
+    <ClCompile Include="client\VisualConstructor\VisualItemGrades.cpp" />
+    <ClCompile Include="client\VisualConstructor\VisualMobTroopExtension.cpp" />
+    <ClCompile Include="client\VisualConstructor\VisualMountClass.cpp" />
+    <ClCompile Include="client\Widgets\UISingleTexture.cpp" />
+    <ClCompile Include="client\Widgets\UITexture.cpp" />
+    <ClCompile Include="Containers\Containers.cpp" />
+    <ClCompile Include="Containers\Unpacker.cpp" />
+    <ClCompile Include="Enums\Elements\Animation.cpp" />
+    <ClCompile Include="Enums\Elements\Items.cpp" />
+    <ClCompile Include="client\Sound\FMODProject.cpp" />
+    <ClCompile Include="client\Scene3D\Geometry.cpp" />
+    <ClCompile Include="Enums\Elements\Replica.cpp" />
+    <ClCompile Include="Enums\Elements\Ships.cpp" />
+    <ClCompile Include="Enums\Elements\SLON.cpp" />
+    <ClCompile Include="Enums\Elements\Spells.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\buff\BuffResource.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\item\ItemResource.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\item\VisualItem.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\mount\MountGroupResource.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\mount\MountResource.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\mount\MountSkin.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\mount\SkinListResource.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\spell\Spell.cpp" />
+    <ClCompile Include="gameMechanics\constructor\schemes\unlock\UnlockResource.cpp" />
+    <ClCompile Include="gameMechanics\elements\calcers\OverLevelPenaltyCalcer.cpp" />
+    <ClCompile Include="gameMechanics\world\avatar\Character.cpp" />
+    <ClCompile Include="gameMechanics\world\characterVariations\CharacterRoot.cpp" />
+    <ClCompile Include="gameMechanics\world\creature\Faction.cpp" />
+    <ClCompile Include="gameMechanics\world\projectile\ProjectileResource.cpp" />
+    <ClCompile Include="gameMechanics\world\ship\ShipResource.cpp" />
+    <ClCompile Include="gameMechanics\world\ship\ShipSkin.cpp" />
+    <ClCompile Include="gameMechanics\world\ship\VisualShip.cpp" />
+    <ClCompile Include="Helpers\Functions.cpp" />
+    <ClCompile Include="mapLoader\StaticObject.cpp" />
+    <ClCompile Include="Mhook\disasm-lib\cpu.c" />
+    <ClCompile Include="Mhook\disasm-lib\disasm.c" />
+    <ClCompile Include="Mhook\disasm-lib\disasm_x86.c" />
+    <ClCompile Include="Mhook\disasm-lib\misc.c" />
+    <ClCompile Include="Mhook\mhook-lib\mhook.cpp" />
+    <ClCompile Include="Tools\Exceptions.cpp" />
+    <ClCompile Include="Unpack\CheckingXDB.cpp" />
+    <ClCompile Include="Unpack\Module.cpp" />
+    <ClCompile Include="Tools\BreakPoints.cpp" />
+    <ClCompile Include="Tools\Memory\AwBreakPoint.cpp" />
+    <ClCompile Include="Tools\Memory\Patcher.cpp" />
+    <ClCompile Include="client\VisualConstructor\VisualMob.cpp" />
+    <ClCompile Include="Unpack\Redirector.cpp" />
+    <ClCompile Include="Unpack\Unpacking.cpp" />
+    <ClCompile Include="client\VisualConstructor\VisualMount.cpp" />
+    <ClCompile Include="client\VisualConstructor\VisCharacterTemplate.cpp" />
+    <ClCompile Include="client\Map\ZoneInfo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="client\Animation\ParticleAnimation.h" />
+    <ClInclude Include="client\Collision\Collision.h" />
+    <ClInclude Include="client\Collision\CollisionMesh.h" />
+    <ClInclude Include="client\Collision\PhysicMaterial.h" />
+    <ClInclude Include="client\GameMechanics\DeathHandler.h" />
+    <ClInclude Include="client\GameMechanics\DeviceRotationPart.h" />
+    <ClInclude Include="client\GameMechanics\ShipDeviceManager.h" />
+    <ClInclude Include="client\GameMechanics\ShipSteeringParams.h" />
+    <ClInclude Include="client\GameMechanics\SphereCollisionHandler.h" />
+    <ClInclude Include="client\GMUIHelper\AstralHubObjectPart.h" />
+    <ClInclude Include="client\Map\SoundObjectData.h" />
+    <ClInclude Include="client\Map\WeatherType.h" />
+    <ClInclude Include="client\Map\WeatherVisObjComponent.h" />
+    <ClInclude Include="client\Map\ZoneLights.h" />
+    <ClInclude Include="client\RenderCommon\MaterialTemplate.h" />
+    <ClInclude Include="client\RenderCommon\TextureSingleElement.h" />
+    <ClInclude Include="client\Replica\AstralSpellChanneling.h" />
+    <ClInclude Include="client\Replica\AstralSpellProjectile.h" />
+    <ClInclude Include="client\Replica\BuffVisScripts.h" />
+    <ClInclude Include="client\Replica\CameraParametersAction.h" />
+    <ClInclude Include="client\Replica\CreatureAnimationAction.h" />
+    <ClInclude Include="client\Replica\CreatureAnimationFromCasterAction.h" />
+    <ClInclude Include="client\Replica\CreatureAnimationSetSpeedAction.h" />
+    <ClInclude Include="client\Replica\CreatureAnimationStopAction.h" />
+    <ClInclude Include="client\Replica\CreatureAstralSpellFXVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureAttachSelfAction.h" />
+    <ClInclude Include="client\Replica\CreatureAttackTargetVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureCancelMountHidingVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureChangeAppearanceAction.h" />
+    <ClInclude Include="client\Replica\CreatureChangeVisItemsAction.h" />
+    <ClInclude Include="client\Replica\CreatureChannelDirectAction.h" />
+    <ClInclude Include="client\Replica\CreatureChargedSpellAction.h" />
+    <ClInclude Include="client\Replica\CreatureColorAction.h" />
+    <ClInclude Include="client\Replica\CreatureDisableSpecialIdlesAction.h" />
+    <ClInclude Include="client\Replica\CreatureEffectsAction.h" />
+    <ClInclude Include="client\Replica\CreatureEffectsOnTarget.h" />
+    <ClInclude Include="client\Replica\CreatureEnchantWeaponAction.h" />
+    <ClInclude Include="client\Replica\CreatureEventPlaybackEnded.h" />
+    <ClInclude Include="client\Replica\CreatureFixedPointProjectileAction.h" />
+    <ClInclude Include="client\Replica\CreatureFixedTimeProjectileAction.h" />
+    <ClInclude Include="client\Replica\CreatureHeavyProjectileAction.h" />
+    <ClInclude Include="client\Replica\CreatureHideMountVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureHoldWeaponAction.h" />
+    <ClInclude Include="client\Replica\CreatureIfFlagVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureIfMainAvatarRunAction.h" />
+    <ClInclude Include="client\Replica\CreatureItemAnimationAction.h" />
+    <ClInclude Include="client\Replica\CreatureItemAttachBoneAction.h" />
+    <ClInclude Include="client\Replica\CreatureMountVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureMusicParamAction.h" />
+    <ClInclude Include="client\Replica\CreatureOnCreationVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureOnParameterChangedAction.h" />
+    <ClInclude Include="client\Replica\CreatureParalyzeAction.h" />
+    <ClInclude Include="client\Replica\CreaturePetVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureProjectileAction.h" />
+    <ClInclude Include="client\Replica\CreatureReplaceAnimationAction.h" />
+    <ClInclude Include="client\Replica\CreatureReplaceAnimationsAction.h" />
+    <ClInclude Include="client\Replica\CreatureRunActionOnSpellTargets.h" />
+    <ClInclude Include="client\Replica\CreatureRunVisActionResource.h" />
+    <ClInclude Include="client\Replica\CreatureSayAction.h" />
+    <ClInclude Include="client\Replica\CreatureScaleAction.h" />
+    <ClInclude Include="client\Replica\CreatureSetAnimationPropertiesAction.h" />
+    <ClInclude Include="client\Replica\CreatureSetFlagVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureSetTransparencyAction.h" />
+    <ClInclude Include="client\Replica\CreatureShowHaloAction.h" />
+    <ClInclude Include="client\Replica\CreatureSwitchDistToTargetAction.h" />
+    <ClInclude Include="client\Replica\CreatureTakeArrowAction.h" />
+    <ClInclude Include="client\Replica\CreatureTakeBowStringAction.h" />
+    <ClInclude Include="client\Replica\CreatureThrowArrowAction.h" />
+    <ClInclude Include="client\Replica\CreatureTimeIntervalChannelPosAction.h" />
+    <ClInclude Include="client\Replica\CreatureTimeIntervalChannelSpeedAction.h" />
+    <ClInclude Include="client\Replica\CreatureTimeIntervalEndAnimationAction.h" />
+    <ClInclude Include="client\Replica\CreatureTrailAction.h" />
+    <ClInclude Include="client\Replica\CreatureTurnToMainAvatarAction.h" />
+    <ClInclude Include="client\Replica\CreatureTurnToTargetAction.h" />
+    <ClInclude Include="client\Replica\CreatureUseIntervalsVisAction.h" />
+    <ClInclude Include="client\Replica\CreatureVisActionCreateController.h" />
+    <ClInclude Include="client\Replica\CreatureVisActionIgnoreDisarm.h" />
+    <ClInclude Include="client\Replica\CreatureVisActionOnSelectableTargets.h" />
+    <ClInclude Include="client\Replica\CreatureVisActionPlayOnUsedDevice.h" />
+    <ClInclude Include="client\Replica\CreatureVisActionStartThrow.h" />
+    <ClInclude Include="client\Replica\CreatureWaitReadyAction.h" />
+    <ClInclude Include="client\Replica\CreatureWaitThrowDurationAction.h" />
+    <ClInclude Include="client\Replica\DayTimeParameter.h" />
+    <ClInclude Include="client\Replica\DeviceActiveActionComponent.h" />
+    <ClInclude Include="client\Replica\DeviceAnimationAction.h" />
+    <ClInclude Include="client\Replica\DeviceCannonLaunchedAction.h" />
+    <ClInclude Include="client\Replica\DeviceChannelAction.h" />
+    <ClInclude Include="client\Replica\DeviceColorAction.h" />
+    <ClInclude Include="client\Replica\DeviceFixedPointProjectileAction.h" />
+    <ClInclude Include="client\Replica\DeviceHealthComponent.h" />
+    <ClInclude Include="client\Replica\DeviceIfFlagVisAction.h" />
+    <ClInclude Include="client\Replica\DeviceOfflineComponent.h" />
+    <ClInclude Include="client\Replica\DeviceVisActionAutoStop.h" />
+    <ClInclude Include="client\Replica\DeviceVisActionChangeModel.h" />
+    <ClInclude Include="client\Replica\DeviceVisActionDelay.h" />
+    <ClInclude Include="client\Replica\DeviceVisActionList.h" />
+    <ClInclude Include="client\Replica\DeviceVisActionLoopAction.h" />
+    <ClInclude Include="client\Replica\DeviceVisEffectsAction.h" />
+    <ClInclude Include="client\Replica\DeviceVisibilityComponent.h" />
+    <ClInclude Include="client\Replica\EffectOffendConstDelay.h" />
+    <ClInclude Include="client\Replica\EffectOffendConstVelocity.h" />
+    <ClInclude Include="client\Replica\EntityVisActionIfVisObject.h" />
+    <ClInclude Include="client\Replica\ForagingVisualizerComponent.h" />
+    <ClInclude Include="client\Replica\GuildLevelParameter.h" />
+    <ClInclude Include="client\Replica\HaloRankParameter.h" />
+    <ClInclude Include="client\Replica\HealthParameter.h" />
+    <ClInclude Include="client\Replica\LevelParameter.h" />
+    <ClInclude Include="client\Replica\LooterEmoteAction.h" />
+    <ClInclude Include="client\Replica\NavigatorZoomPartResource.h" />
+    <ClInclude Include="client\Replica\PostEffectVisAction.h" />
+    <ClInclude Include="client\Replica\ProceduralEffectVisAction.h" />
+    <ClInclude Include="client\Replica\RankInGuildParameter.h" />
+    <ClInclude Include="client\Replica\ShakeAction.h" />
+    <ClInclude Include="client\Replica\ShiftAction.h" />
+    <ClInclude Include="client\Replica\ShipEngineComponent.h" />
+    <ClInclude Include="client\Replica\ShowSceneAction.h" />
+    <ClInclude Include="client\Replica\SlotInterfaceData.h" />
+    <ClInclude Include="client\Replica\Sound2DAction.h" />
+    <ClInclude Include="client\Replica\Sound2DMatchAction.h" />
+    <ClInclude Include="client\Replica\Sound3DAction.h" />
+    <ClInclude Include="client\Replica\Sound3DActionDevice.h" />
+    <ClInclude Include="client\Replica\ThreatParameter.h" />
+    <ClInclude Include="client\Replica\UsableDeviceClientPart.h" />
+    <ClInclude Include="client\Replica\VisActionChangeVisObject.h" />
+    <ClInclude Include="client\Replica\VisActionDelay.h" />
+    <ClInclude Include="client\Replica\VisActionList.h" />
+    <ClInclude Include="client\Replica\VisActionLoopAction.h" />
+    <ClInclude Include="client\Replica\VisActionRandom.h" />
+    <ClInclude Include="client\Replica\VisActionRefCounter.h" />
+    <ClInclude Include="client\Replica\VisActionStopAction.h" />
+    <ClInclude Include="client\Replica\VisItemEffectsRanged.h" />
+    <ClInclude Include="client\Replica\VisPointFromEventClientDataPlus.h" />
+    <ClInclude Include="client\Replica\VisPointLocator.h" />
+    <ClInclude Include="client\Scene3D\AnimatedLight.h" />
+    <ClInclude Include="client\Scene3D\AnimationController.h" />
+    <ClInclude Include="client\Scene\ChainAnimatorComponent.h" />
+    <ClInclude Include="client\Scene\ClolorFromPrimeSecondary.h" />
+    <ClInclude Include="client\Scene\ColorMaskComponent.h" />
+    <ClInclude Include="client\Scene\DelayComponent.h" />
+    <ClInclude Include="client\Scene\LightComponent.h" />
+    <ClInclude Include="client\Scene\RandomComponent.h" />
+    <ClInclude Include="client\Scene\StopVisObjectComponents.h" />
+    <ClInclude Include="client\Scene\TimeTransparencyComponent.h" />
+    <ClInclude Include="client\Scene\VisObjComponentsFile.h" />
+    <ClInclude Include="client\SLON\AstralMobHitLocator.h" />
+    <ClInclude Include="client\SLON\CameraShakerComponent.h" />
+    <ClInclude Include="client\RenderCommon\Texture.h" />
+    <ClInclude Include="client\Scene3D\AstralMaterialParams.h" />
+    <ClInclude Include="client\client.h" />
+    <ClInclude Include="client\Scene3D\CommonMaterialParams.h" />
+    <ClInclude Include="client\Scene3D\SkeletalAnimation.h" />
+    <ClInclude Include="client\Scene3D\SkyMaterialParams.h" />
+    <ClInclude Include="client\Scene\AttachedVisObjectComponent.h" />
+    <ClInclude Include="client\Scene\VisObjectTemplate.h" />
+    <ClInclude Include="client\SLON\AlignCollisionComponent.h" />
+    <ClInclude Include="client\SLON\AttachCameraSlotComponent.h" />
+    <ClInclude Include="client\SLON\CameraPathComponent.h" />
+    <ClInclude Include="client\SLON\CameraTrackAction.h" />
+    <ClInclude Include="client\SLON\ChannelingComponent.h" />
+    <ClInclude Include="client\SLON\CreatureDisableEmotesAction.h" />
+    <ClInclude Include="client\SLON\CreatureDisableHitsAction.h" />
+    <ClInclude Include="client\SLON\CreatureEnlargeFovAction.h" />
+    <ClInclude Include="client\SLON\CreatureFatalityAbilityAction.h" />
+    <ClInclude Include="client\SLON\CreatureForceMoveAction.h" />
+    <ClInclude Include="client\SLON\CreatureGridViewAction.h" />
+    <ClInclude Include="client\SLON\CreatureIndependentFxAction.h" />
+    <ClInclude Include="client\SLON\CreatureLockTargetAction.h" />
+    <ClInclude Include="client\SLON\CreatureRunOnAllAction.h" />
+    <ClInclude Include="client\SLON\CreatureSceneDesaturationAction.h" />
+    <ClInclude Include="client\SLON\CreatureSetFlagAction.h" />
+    <ClInclude Include="client\SLON\CreatureSetPortraitAction.h" />
+    <ClInclude Include="client\SLON\CreatureSetSwimHeightAction.h" />
+    <ClInclude Include="client\SLON\CreatureSheathAction.h" />
+    <ClInclude Include="client\SLON\CreatureStepSoundParamAction.h" />
+    <ClInclude Include="client\SLON\CreatureVisObjectComponentsAction.h" />
+    <ClInclude Include="client\SLON\CustomIdleComponent.h" />
+    <ClInclude Include="client\SLON\DamageDecalManager.h" />
+    <ClInclude Include="client\SLON\DisableNavigationTeleportAction.h" />
+    <ClInclude Include="client\SLON\EffectsList.h" />
+    <ClInclude Include="client\SLON\GuildColorsMaskComponent.h" />
+    <ClInclude Include="client\SLON\HideGeoPart.h" />
+    <ClInclude Include="client\SLON\HighlightCreatureVisAction.h" />
+    <ClInclude Include="client\SLON\HitLocators.h" />
+    <ClInclude Include="client\SLON\InteractionAnimationPart.h" />
+    <ClInclude Include="client\SLON\MimicSlotPart.h" />
+    <ClInclude Include="client\SLON\PirateSailsPart.h" />
+    <ClInclude Include="client\SLON\PositionSynchronizer.h" />
+    <ClInclude Include="client\SLON\PredicateCreatureFlagAction.h" />
+    <ClInclude Include="client\SLON\ProjectileHolderPart.h" />
+    <ClInclude Include="client\SLON\RotationAnimationPart.h" />
+    <ClInclude Include="client\SLON\ScanerDevicePart.h" />
+    <ClInclude Include="client\SLON\ServerTimeComponent.h" />
+    <ClInclude Include="client\SLON\ShipBuildStatus.h" />
+    <ClInclude Include="client\SLON\ShipBuildStatusResource.h" />
+    <ClInclude Include="client\SLON\ShipHealthComponent.h" />
+    <ClInclude Include="client\SLON\ShipProximityChecker.h" />
+    <ClInclude Include="client\SLON\SingleHitSlot.h" />
+    <ClInclude Include="client\SLON\SlonRoot.h" />
+    <ClInclude Include="client\SLON\SlotLink.h" />
+    <ClInclude Include="client\SLON\TeleportEffect.h" />
+    <ClInclude Include="client\SLON\TLScriptsPart.h" />
+    <ClInclude Include="client\SLON\TLVisualComponent.h" />
+    <ClInclude Include="client\SLON\VisEntityVisualizer.h" />
+    <ClInclude Include="client\SLON\WeatherCreatureVisAction.h" />
+    <ClInclude Include="client\Terrain\FoliageGeometry.h" />
+    <ClInclude Include="client\VisualConstructor\AnimationFromParentComponent.h" />
+    <ClInclude Include="client\VisualConstructor\AnimationProperties.h" />
+    <ClInclude Include="client\VisualConstructor\AreaEffect.h" />
+    <ClInclude Include="client\VisualConstructor\AstralComponent.h" />
+    <ClInclude Include="client\VisualConstructor\AstralObject.h" />
+    <ClInclude Include="client\VisualConstructor\CameraShakeParameters.h" />
+    <ClInclude Include="client\VisualConstructor\CharacterSoundVariation.h" />
+    <ClInclude Include="client\VisualConstructor\CharacterVariations.h" />
+    <ClInclude Include="client\VisualConstructor\DayTimeComponent.h" />
+    <ClInclude Include="client\VisualConstructor\IndexedTexture.h" />
+    <ClInclude Include="client\VisualConstructor\LightMutatorComponent.h" />
+    <ClInclude Include="client\VisualConstructor\MobAnimations.h" />
+    <ClInclude Include="client\VisualConstructor\ModelMorphSettings.h" />
+    <ClInclude Include="client\VisualConstructor\PostEffectParams.h" />
+    <ClInclude Include="client\VisualConstructor\SkyMesh.h" />
+    <ClInclude Include="client\VisualConstructor\SkyObject.h" />
+    <ClInclude Include="client\VisualConstructor\SpellVisScripts.h" />
+    <ClInclude Include="client\VisualConstructor\StateComponent.h" />
+    <ClInclude Include="client\VisualConstructor\SunShaftsComponent.h" />
+    <ClInclude Include="client\VisualConstructor\TexturePatch.h" />
+    <ClInclude Include="client\VisualConstructor\TrailComponent.h" />
+    <ClInclude Include="client\VisualConstructor\TrailTemplate.h" />
+    <ClInclude Include="client\VisualConstructor\TransportVisualItem.h" />
+    <ClInclude Include="client\VisualConstructor\UserPostEffect.h" />
+    <ClInclude Include="client\VisualConstructor\VICAttachedComponentByCharFiltered.h" />
+    <ClInclude Include="client\VisualConstructor\VICCancelDefaultDressSlotSettings.h" />
+    <ClInclude Include="client\VisualConstructor\VICDynamic.h" />
+    <ClInclude Include="client\VisualConstructor\VICHideAttachedObj.h" />
+    <ClInclude Include="client\VisualConstructor\VICHideGeosets.h" />
+    <ClInclude Include="client\VisualConstructor\VICHideUnderwear.h" />
+    <ClInclude Include="client\VisualConstructor\VICOverride.h" />
+    <ClInclude Include="client\VisualConstructor\VICPack.h" />
+    <ClInclude Include="client\VisualConstructor\VICReplaceTexture.h" />
+    <ClInclude Include="client\VisualConstructor\VICSelectByChar.h" />
+    <ClInclude Include="client\VisualConstructor\VICSelectComponentByChar.h" />
+    <ClInclude Include="client\VisualConstructor\VICSelectComponentByGuildLevel.h" />
+    <ClInclude Include="client\VisualConstructor\VICSelectComponentByRankInGuild.h" />
+    <ClInclude Include="client\VisualConstructor\VICStatic.h" />
+    <ClInclude Include="client\VisualConstructor\VICUsePack.h" />
+    <ClInclude Include="client\VisualConstructor\VICVisObjectByCharComponent.h" />
+    <ClInclude Include="client\VisualConstructor\VICVisObjectComponents.h" />
+    <ClInclude Include="client\VisualConstructor\VisCharacterTraceProperties.h" />
+    <ClInclude Include="client\VisualConstructor\VisEffectBaseList.h" />
+    <ClInclude Include="client\VisualConstructor\VisualItemGrades.h" />
+    <ClInclude Include="client\VisualConstructor\VisualMobTroopExtension.h" />
+    <ClInclude Include="client\VisualConstructor\VisualMountClass.h" />
+    <ClInclude Include="client\Widgets\UISingleTexture.h" />
+    <ClInclude Include="client\Widgets\UITexture.h" />
+    <ClInclude Include="Containers\Containers.h" />
+    <ClInclude Include="Containers\Unpacker.h" />
+    <ClInclude Include="client\Replica\CreatureAnimationSetModeAction.h" />
+    <ClInclude Include="Enums\Enums.h" />
+    <ClInclude Include="client\Sound\FMODProject.h" />
+    <ClInclude Include="client\Scene3D\Geometry.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\buff\BuffResource.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\item\ItemResource.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\item\VisualItem.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\mount\MountGroupResource.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\mount\MountResource.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\mount\MountSkin.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\mount\SkinListResource.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\spell\Spell.h" />
+    <ClInclude Include="gameMechanics\constructor\schemes\unlock\UnlockResource.h" />
+    <ClInclude Include="gameMechanics\elements\calcers\OverLevelPenaltyCalcer.h" />
+    <ClInclude Include="gameMechanics\gameMechanics.h" />
+    <ClInclude Include="gameMechanics\world\avatar\Character.h" />
+    <ClInclude Include="gameMechanics\world\characterVariations\CharacterRoot.h" />
+    <ClInclude Include="gameMechanics\world\creature\Faction.h" />
+    <ClInclude Include="gameMechanics\world\projectile\ProjectileResource.h" />
+    <ClInclude Include="gameMechanics\world\ship\ShipResource.h" />
+    <ClInclude Include="gameMechanics\world\ship\ShipSkin.h" />
+    <ClInclude Include="gameMechanics\world\ship\VisualShip.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="Manipulation\API.h" />
+    <ClInclude Include="Manipulation\Bypass.h" />
+    <ClInclude Include="Manipulation\MainWorker.h" />
+    <ClInclude Include="mapLoader\mapLoader.h" />
+    <ClInclude Include="mapLoader\StaticObject.h" />
+    <ClInclude Include="Mhook\disasm-lib\cpu.h" />
+    <ClInclude Include="Mhook\disasm-lib\disasm.h" />
+    <ClInclude Include="Mhook\disasm-lib\disasm_x86.h" />
+    <ClInclude Include="Mhook\disasm-lib\disasm_x86_tables.h" />
+    <ClInclude Include="Mhook\disasm-lib\misc.h" />
+    <ClInclude Include="Mhook\mhook-lib\mhook.h" />
+    <ClInclude Include="client\Scene3D\PointLitMaterialParams.h" />
+    <ClInclude Include="Tools\Exceptions.h" />
+    <ClInclude Include="Unpack\Module.h" />
+    <ClInclude Include="Tools\BreakPoints.h" />
+    <ClInclude Include="Tools\Memory\AwBreakPoint.h" />
+    <ClInclude Include="Tools\Memory\Patcher.h" />
+    <ClInclude Include="client\VisualConstructor\VisualMob.h" />
+    <ClInclude Include="client\VisualConstructor\VisualMount.h" />
+    <ClInclude Include="client\VisualConstructor\VisCharacterTemplate.h" />
+    <ClInclude Include="client\Map\ZoneInfo.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{49D3E882-8157-4EEE-8AE2-E5B56C68C793}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>AllodsV7</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)/Objects/$(Configuration)/$(ProjectName)/</IntDir>
+    <LibraryPath>E:\PROJECTS\New Skills Projects\Allods_New_Version_Of_DllMain\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\PROJECTS\AllodsNew;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ALLODSV7_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;ALLODSV7_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level2</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ALLODSV7_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;ALLODSV7_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

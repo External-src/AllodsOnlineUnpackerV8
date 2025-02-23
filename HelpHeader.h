@@ -1,0 +1,10 @@
+#pragma once
+#include <windows.h>
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <psapi.h>
+#include "../tinyxml2/tinyxml2.h"
+//#include "Helpers/Decoder.h"
+//#include "Containers\TypeElement.h"
+#include "Unpack\Module.h"
