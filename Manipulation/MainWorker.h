@@ -1,6 +1,7 @@
 #pragma once
 #include "../Header.h"
 #include "../Containers/Containers.h"
+#include "../Tools/PatternSearch.h"
 
 //==================Items_Initialization==================//
 void Fill_Items_Container(PCONTEXT db)
@@ -11,8 +12,8 @@ void Fill_Items_Container(PCONTEXT db)
 	items.push_back(n);
 }
 
-const DWORD ItemsInitAddr = 0x00D41299;
-const DWORD ItemsInitOff = 0x00D4129C;
+DWORD ItemsInitAddr = 0;
+DWORD ItemsInitOff = 0;
 
 void __declspec(naked) ItemsInit(void) {
 	__asm {
@@ -50,8 +51,8 @@ void Fill_Constructors_Container(PCONTEXT db)
 	log_con << hex << c.Address << " = " << string(c.struct_name) << endl;
 }
 
-const DWORD ConstructorInitAddr = 0x00586B11;
-const DWORD ConstructorInitOff = 0x00586B13;
+DWORD ConstructorInitAddr = 0;
+DWORD ConstructorInitOff = 0;
 
 void __declspec(naked) ConstructionInit(void) {
 	__asm {
@@ -63,6 +64,22 @@ void __declspec(naked) ConstructionInit(void) {
 
 void HackingXDB()
 {
-	BP.AddAddr(ItemsInitAddr, &ItemsInit, 1, Fill_Items_Container);
-	BP.AddAddr(ConstructorInitAddr, &ConstructionInit, 2, Fill_Constructors_Container);
+        if (!ItemsInitAddr)
+        {
+                static const char* itemsPattern = "89 3C 8B"; // TODO: update pattern
+                ItemsInitAddr = static_cast<DWORD>(FindPattern(L"AOgame.exe", itemsPattern));
+                if (ItemsInitAddr)
+                        ItemsInitOff = ItemsInitAddr + 0x03; // TODO: update offset
+        }
+        if (!ConstructorInitAddr)
+        {
+                static const char* ctorPattern = "8B C8 89"; // TODO: update pattern
+                ConstructorInitAddr = static_cast<DWORD>(FindPattern(L"AOgame.exe", ctorPattern));
+                if (ConstructorInitAddr)
+                        ConstructorInitOff = ConstructorInitAddr + 0x02; // TODO: update offset
+        }
+        if (ItemsInitAddr && ItemsInitOff)
+                BP.AddAddr(ItemsInitAddr, &ItemsInit, 1, Fill_Items_Container);
+        if (ConstructorInitAddr && ConstructorInitOff)
+                BP.AddAddr(ConstructorInitAddr, &ConstructionInit, 2, Fill_Constructors_Container);
 }
